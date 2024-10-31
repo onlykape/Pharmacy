@@ -71,4 +71,3 @@ klik resolve conflict
 review codingan yang berubah dan hapus kode command dari github lalu mark as resolve
 
 untuk meenghindari Conflict saat push ke github jangan asal push, tapi obrolkan ke tim anda apakah ada yangg lagi ngoding/tidak
-a
