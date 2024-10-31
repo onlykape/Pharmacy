@@ -1,0 +1,49 @@
+-------------------------------------
+Tutorial Laravel Git
+-------------------------------------
+masuk difolder nya | cd <namafolder>
+
+type composer install in gitbash
+
+type cp .env.example .env
+
+type php artisan key:generate
+
+done, php artisan ser
+
+
+----------------------------------------
+Tutorial Work Laravel as a Team on Git
+----------------------------------------
+#buka projek lewat vscode liat di extensi github pojok bawah kiri terdapat teks branch main
+
+#lanjutan dari Tutorial atas, type git branch <nama_branch_tugas_yang_dikerjakan_>
+contoh git branch belajar_github
+
+type git checkout belajar_github
+#buka vscode lagi liat di extensi github pojok bawah kiri yang tadinya branch main berganti nama menjadi branch belajar_github
+
+#sekarang mulailah fix/mengedit projeknya
+
+#setelah mengedit projek
+type git add .
+
+type git commit -m "menyelesaikan tutorial git halaman about"
+
+type git push -u origin belajar_github
+#jangan push ke main
+
+#lalu buka repo projeknya, dan klik compare&pull
+#penjelasannya yaitu tim meminta kpd pemilik repo untuk dimerge codingan dia di branch main
+
+
+---------------------------------------------------------
+Tutorial Work Laravel as a Team on Git get Latest Repo
+---------------------------------------------------------
+type git fetch
+#untuk mengecek coding projek sekarang apakah berbeda/sama dengan reponya
+
+type git status
+
+type git pull
+
