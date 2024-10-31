@@ -38,7 +38,7 @@ type git push -u origin belajar_github
 
 
 ---------------------------------------------------------
-Tutorial Work Laravel as a Team on Git get Latest Repo
+Tutorial Work Laravel as a Team on Git GET Latest Repo
 ---------------------------------------------------------
 type git fetch
 #untuk mengecek coding projek sekarang apakah berbeda/sama dengan reponya
