@@ -18,7 +18,7 @@ Tutorial Work Laravel as a Team on Git
 #buka projek lewat vscode liat di extensi github pojok bawah kiri terdapat teks branch main
 
 #lanjutan dari Tutorial atas, type git branch <nama_branch_tugas_yang_dikerjakan_>
-contoh git branch belajar_github
+#contoh git branch belajar_github
 
 type git checkout belajar_github
 #buka vscode lagi liat di extensi github pojok bawah kiri yang tadinya branch main berganti nama menjadi branch belajar_github
@@ -31,7 +31,7 @@ type git add .
 type git commit -m "menyelesaikan tutorial git halaman about"
 
 type git push -u origin belajar_github
-#jangan push ke main
+#jangan push ke main, samakan dengang branch yang dibuat diawal tadi
 
 #lalu buka repo projeknya, dan klik compare&pull
 #penjelasannya yaitu tim meminta kpd pemilik repo untuk dimerge codingan dia di branch main
@@ -47,3 +47,27 @@ type git status
 
 type git pull
 
+
+-----------------------------------------------------------
+Tutorial menghapus branch di git bash setelah edit projek
+-----------------------------------------------------------
+
+type git checkout main
+
+type git branch -D <nama_branch_tugas_yang_dikerjakan_>
+#contoh git branch -D belajar_github
+
+type git pull
+#khusus penggunaan git pull jika sudah dapat info dari tim lain bahwa sudah melakukan git push
+#jika tim lain tidak fast resp dan anda tidak tau apakah codingan di repo baru/tidak,
+#gunakanlah git fetch (Tutorial Work Laravel as a Team on Git get Latest Repo)
+
+
+------------------------------------------------------
+Tutorial untuk owner fix conflict direpository owner
+------------------------------------------------------
+klik resolve conflict
+
+review codingan yang berubah dan hapus kode command dari github lalu mark as resolve
+
+untuk meenghindari Conflict saat push ke github jangan asal push, tapi obrolkan ke tim anda apakah ada yangg lagi ngoding/tidak
