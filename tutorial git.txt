@@ -47,6 +47,7 @@ type git status
 
 type git pull
 
+#lalu hapus branch yg dibuat tadi
 
 -----------------------------------------------------------
 Tutorial menghapus branch di gitbash setelah edit projek
