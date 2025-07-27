@@ -2,4 +2,4 @@ belajar git melalui vscode bersama mas krish pranata yang sering dipanggil mr yo
 yoancok
 halo pak yoa, ini ada mas krish pranata
 last mariki tak pijet
-updatee dari gitbash lewat terminal 2
+update dari gitbash lewat terminal 2
